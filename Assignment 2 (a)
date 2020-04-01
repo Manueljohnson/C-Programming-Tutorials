@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main ()
+{
+  char ab[]="Ida", cd[]="Kendriya Vidyalaya";
+  int e=17, f=12, g=45;
+  printf("Name of student-%s\n",ab);
+  printf("School-%s\n",cd);
+  printf("Age-%d\n",e);
+  printf("Class-%d\n",f);
+  printf("Marks-%d\n",g);
+}
