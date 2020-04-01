@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main()
+{
+  char name[]="Buddy",favfood[]="pedigree";
+  int a=10;
+  printf("My pet's name is %s\n",name);
+  printf("It is %d years old\n", a);
+  printf("Its favourite food is %s\n",favfood);
+}
