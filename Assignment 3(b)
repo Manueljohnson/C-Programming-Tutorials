@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+  double P;
+  double R;
+  double T;
+  double S;
+  printf("Enter the Principal amount:\n",P);
+  scanf("%lf", &P);
+  printf("Enter the Interest rate:\n",R);
+  scanf("%lf", &R);
+  printf("Enter the time period:\n",T);
+  scanf("%lf", &T);
+  /*to calculate simple interest*/
+  S= P*(1+R*T);
+  printf("The Simple Interest is %f\n",S);
+  
+  return 0;
+}
