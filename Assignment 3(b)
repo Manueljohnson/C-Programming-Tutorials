@@ -12,7 +12,7 @@ int main()
   printf("Enter the time period:\n",T);
   scanf("%lf", &T);
   /*to calculate simple interest*/
-  S= P*(1+R*T);
+  S= P*(1+R*T/100);
   printf("The Simple Interest is %f\n",S);
   
   return 0;
