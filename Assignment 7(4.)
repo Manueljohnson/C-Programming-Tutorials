@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+  double i,j,k;
+  printf("Enter the first number\n",i);
+  scanf("%lf",&i);
+  printf("Enter the Second number\n",j);
+  scanf("%lf",&j);
+  printf("Enter the Third number\n ",k);
+  scanf("%lf",&k);
+  if(i>j && i>k)
+   printf("The greatest number is %f\n",i);
+  else if(j>i && j>k)
+   printf("The greatest number is %f\n",j);
+  else
+   printf("The greatest number is %f\n",k);
+   
+  return 0; 
+}
