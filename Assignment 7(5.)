@@ -2,7 +2,7 @@
 int main()
 {
   double i;
-  printf("Enter a number:\n",i);
+  printf("Enter a number:\n");
   scanf("%lf",&i);
   if(i>0)
    printf("Positive");
