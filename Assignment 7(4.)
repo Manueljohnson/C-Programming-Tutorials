@@ -2,11 +2,11 @@
 int main()
 {
   double i,j,k;
-  printf("Enter the first number\n",i);
+  printf("Enter the first number\n");
   scanf("%lf",&i);
-  printf("Enter the Second number\n",j);
+  printf("Enter the Second number\n");
   scanf("%lf",&j);
-  printf("Enter the Third number\n ",k);
+  printf("Enter the Third number\n");
   scanf("%lf",&k);
   if(i>j && i>k)
    printf("The greatest number is %f\n",i);
