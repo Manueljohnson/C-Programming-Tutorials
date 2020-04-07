@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+  double bs, da, ta, ns;
+  printf("Enter the basic salary:\n", bs);
+  scanf("%lf", &bs);
+  da = 10*bs/100;
+  ta = 12*bs/100 ;
+  ns= bs + da+ ta;
+  printf("Net Salary:%f\n", ns);
+  return 0;
+}
