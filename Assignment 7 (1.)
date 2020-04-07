@@ -2,11 +2,11 @@
 int main()
 {
   double bs, da, ta, ns;
-  printf("Enter the basic salary:\n", bs);
+  printf("Enter the basic salary:\n");
   scanf("%lf", &bs);
   da = 10*bs/100;
   ta = 12*bs/100 ;
   ns= bs + da+ ta;
-  printf("Net Salary:%f\n", ns);
+  printf("Net Salary:%f\n");
   return 0;
 }
