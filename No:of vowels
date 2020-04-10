@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+  char p[100];
+  int i,j=0;
+  printf("Enter the string\n");
+  gets(p);
+  for(i=0;p[i]!='\0';i++)
+   if(p[i]=='A'||p[i]=='a'||p[i]=='E'||p[i]=='e'||p[i]=='I'||p[i]=='i'||p[i]=='O'||p[i]=='o'||p[i]=='U'||p[i]=='u')
+   {
+     j++;
+   }
+  printf("no:of vowels:%d",j);
+  return 0;
+}
+
