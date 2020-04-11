@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+  char y[100];
+  int i,j,k=0,m=0,n=0;
+  printf("Enter the string\n");
+  gets(y);
+  j=strlen(y);
+  for(i=0;i<j;i++)
+  {
+   if(y[i]>=65 && y[i]<=90)
+   k++;
+   else if(y[i]>=97 && y[i]<=122)
+   k++;
+   else if(y[i]>=48 && y[i]<=57)
+   m++;
+   else if(y[i]>=33 && y[i]<=47)
+   n++;
+   else if(y[i]>=58 && y[i]<=64)
+   n++;
+   else if(y[i]>=91 && y[i]<=96)
+   n++;
+   else if(y[i]>=123 && y[i]<=126)
+   n++;
+   else
+   continue;
+  }
+  printf("No:of alphabets:%d\n",k);
+  printf("No:of digits:%d\n",m);
+  printf("No:of special characters:%d\n",n);
+  
+  return 0;
+   
+}
