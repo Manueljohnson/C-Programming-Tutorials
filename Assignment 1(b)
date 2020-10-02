@@ -1,7 +1,11 @@
 #include <stdio.h>
-void main()
+int main()
 {
+  printf("Program to display NAME,BRANCH,COLLEGE\n");
+
   printf("Hanna V Sleeba\n");
   printf("Electronics and Communication Engineering\n");
   printf("College of Engineering Chengannur\n");
-}
+ return 0;
+ }
+
